@@ -1,5 +1,6 @@
 ##sudo -iu postgres pgbench -i
 #### таблицы созданы, 14 версия postgresql
+## до настроек tps = 587.0  
 #### Необходимые настройки: 
 ## DB Version: 14
 ## OS Type: linux
@@ -20,6 +21,8 @@
 ## huge_pages = off
 ## min_wal_size = 4GB
 ## max_wal_size = 16GB
-
+## после настроек tps = 227.885428
 ## устанавливаем pgbadger и lynx, смотрим out.html
 ## Добавляем ramdisk  /tmp/disk/mem/1gb/ tmpfs defaults,size=1G,x-gvfs-show  0  0
+## Для ускорения отключаем автовакуум - autovacuum = off
+
