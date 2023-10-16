@@ -3,5 +3,5 @@
 ## Запускаем minikube dashboard
 ## minikube docker-env
 ## Создаем образ докер
-## Поднимаем statefulset postgres
+## Поднимаем statefulset postgres через манифест
 ## Запускаем сервис Postgres
